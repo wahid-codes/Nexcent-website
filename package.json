@@ -1,0 +1,25 @@
+{
+  "name": "nexcent-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./css/style.css",
+    "watch": "tailwindcss -i ./input.css -o ./css/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wahid-codes/Nexcent-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/wahid-codes/Nexcent-website/issues"
+  },
+  "homepage": "https://github.com/wahid-codes/Nexcent-website#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.19"
+  }
+}
